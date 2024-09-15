@@ -20,6 +20,16 @@
 };
 
 / {
+    leader_sequences {
+        compatible = "zmk,leader-sequences";
+        seq_esc {
+            key-positions = <0 1>;
+            bindings = <&kp A>;
+        };
+    };
+};
+
+/ {
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
