@@ -23,7 +23,7 @@
     leader_sequences {
         compatible = "zmk,leader-sequences";
         seq_esc {
-            key-positions = <0 1>;
+            key-positions = <1 2>;
             bindings = <&kp A>;
         };
     };
@@ -62,7 +62,7 @@
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T          &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &bhm LSHIFT A  &kp S  &kp D     &kp F  &kp G          &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&leader  &bhm LSHIFT A  &kp S  &kp D     &kp F  &kp G          &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &td0       &kp Z  &kp X  &kp C     &kp V  &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                          &kp LGUI  &mo 1  &lt 3 ENTER    &lt 3 SPACE  &mo 2  &kp RALT
             >;
