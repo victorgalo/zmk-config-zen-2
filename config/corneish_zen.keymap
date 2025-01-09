@@ -61,7 +61,7 @@
 
             bindings = <
                 &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y            &kp U           &kp I               &kp O               &kp P               &kp BSPC      
-                &leader         &bhm LSHIFT A   &bhm LGUI S     &bhm LCTL D     &kp LALT F      &kp G           &kp H            &bhm LALT J     &bhm LCTL K         &bhm LGUI L         &bhm LSFT SEMI      &kp SQT
+                &leader         &bhm LSHIFT A   &bhm LGUI S     &bhm LCTL D     &kp LALT F      &kp G           &kp H            &bhm LALT J     &bhm LCTL K         &bhm LGUI L         &bhm LSHIFT SEMI    &kp SQT
                 &td0            &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N            &kp M           &kp COMMA           &kp DOT             &kp FSLH            &kp ESC
                                                                 &kp LGUI        &mo 1           &lt 3 ENTER     &lt 3 SPACE      &mo 2           &kp RALT
             >;
