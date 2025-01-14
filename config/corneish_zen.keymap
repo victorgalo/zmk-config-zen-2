@@ -59,7 +59,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <22 21>;
+            key-positions = <22 23>;
         };
     };
 
@@ -77,7 +77,7 @@
 
             bindings = <
 &kp TAB   &kp Q          &kp W        &kp E        &kp R        &kp T          &kp Y      &kp U        &kp I        &kp O        &kp P             &kp BSPC
-&kp RALT  &bhm LSHIFT A  &bhm LGUI S  &bhm LCTL D  &bhm LALT F  &kp G          &kp H      &bhm LALT J  &bhm LCTL K  &bhm LGUI L  &bhm LSHIFT SEMI  &kp SQT
+&sk RALT  &bhm LSHIFT A  &bhm LGUI S  &bhm LCTL D  &bhm LALT F  &kp G          &kp H      &bhm LALT J  &bhm LCTL K  &bhm LGUI L  &bhm LSHIFT SEMI  &kp SQT
 &td0      &kp Z          &kp X        &kp C        &kp V        &kp B          &kp N      &kp M        &kp COMMA    &kp DOT      &kp FSLH          &caps_word
                                       &mo 4        &mo 3        &lt 2 ENTER    &kp SPACE  &lt 1 BSPC   &kp RALT
             >;
@@ -152,7 +152,6 @@
                                          &trans             &trans            &trans             &kp INS          &kp DEL          &trans
             >;
         };
-
     };
 
     conditional_layers {
