@@ -98,7 +98,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &trans     &trans     &trans     &key_repeat  &trans    &kp PG_UP    &kp HOME  &kp UP    &kp END    &kp BSPC   &kp DEL
+&trans  &trans     &trans     &trans     &key_repeat  &trans    &kp PG_UP    &kp HOME  &kp UP    &kp END    &kp DEL  &kp BSPC 
 &trans  &trans     &trans     &trans     &trans       &trans    &kp PG_DN    &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)    &trans    &key_repeat  &trans    &trans    &trans     &trans     &trans
                               &trans     &trans       &trans    &trans       &trans    &trans
@@ -132,7 +132,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &trans     &trans     &trans     &key_repeat  &trans    &kp PG_UP    &kp HOME  &kp UP    &kp END    &kp BSPC   &kp DEL
+&trans  &trans     &trans     &trans     &key_repeat  &trans    &kp PG_UP    &kp HOME  &kp UP    &kp END    &kp DEL   &kp BSPC
 &trans  &trans     &trans     &trans     &trans       &trans    &kp PG_DN    &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &trans
 &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)    &trans    &key_repeat  &trans    &trans    &trans     &trans     &trans
                               &trans     &trans       &trans    &trans       &trans    &trans
