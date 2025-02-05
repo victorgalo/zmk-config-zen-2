@@ -19,12 +19,18 @@
     };
 };
 
+&sk {
+    release-after-ms = <2000>;
+    quick-release;
+};
+
 / {
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TD0";
             #binding-cells = <0>;
+            tapping-term-ms = <200>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
@@ -35,6 +41,11 @@
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+        };
+        skq: sticky_key_quick_release {
+            compatible = "zmk,behavior-sticky-key";
+            bindings = <&kp>;
+            quick-release;
         };
     };
 
@@ -133,7 +144,7 @@
             bindings = <
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7   &kp N8  &kp N9  &kp N0     &kp ASTRK
 &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp N4   &kp N5  &kp N6  &kp EQUAL  &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PLUS   &kp N1   &kp N2  &kp N3  &kp DOT    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp UNDER  &kp N1   &kp N2  &kp N3  &kp PLUS    &trans
                         &trans  &trans  &trans    &trans     &kp DOT  &kp N0
             >;
         };
